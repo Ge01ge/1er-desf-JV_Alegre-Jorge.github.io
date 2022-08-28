@@ -1,0 +1,17 @@
+IDEA SIMPLIFICADA: hacer una especie de loetria para elegir equipos basados en colores
+
+originalmente queria pedirle al usuario valores de 1 al 6 y usar condicionales centradas en el 3:
+1) x<=3 --> equipo rojo
+2) x>3 && x<=6 --> equipo verde
+3) x>6--> valor invalido
+
+lo unico es que me me muestra el document.write con el valor que le ingreso, el o los anteriores y posteriores a hasta llegar al valor dado, no puedo hacer que muestre solo el valor ingresado con la leyenda coorespondiente.  
+Y si uso un breack me corta al terminar el 1er analisis (si por ej: eligiera el 7 normalmente me tiraria del 1 al 6 indicando cuanles son rojos y cuales verdes y despues el 7 con la leyenda de valor invalido. Pero corta en el 1er analisis y solo muestra 1 pertenece al rojo).
+Si remplazo los document.write por alert correrian los 3 alert (y si uso un break pasa lo mencionado anteriormente corta en el 1er analisis con break)
+
+>> DUDAS <<
+1)
+Queria pedirle al usuario el valor y usarlo en un swicht, dentro hacer un for (i=1; i<=6) y despues usar los case con los condicionales, pero no salio nada bien.
+2) 
+Al abrir por 1ra vez la pagina no aparece el enunciado del index, despues de terminar todo el javascript recien aparece el enunciado (nose si es normal o esta mal confiruado --> eso me lleva al item (3))
+3) anexe una captura con los errores que me aparece en la console
